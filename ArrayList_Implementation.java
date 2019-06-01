@@ -16,7 +16,7 @@ public class MyArrayList {
             throw new ArrayIndexOutOfBoundsException();
         }
     }
-       pubic void add(Object obj)
+       pubic void add(Object obj){
         if(myStore.length-actSize <= 5){
             increaseListSize();
         }
